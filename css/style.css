@@ -59,7 +59,7 @@ body{
 
 .firstsection {
   height: 620px;
-  background-image: url("/images/bg1_repeat.JPG");
+  background-image: url("/upcomer/images/bg1_repeat.JPG");
   margin-top: 80px;
   text-align: center;
 }
@@ -174,7 +174,7 @@ input {
 
 .fourthsection {
   height: 400px;
-  background-image: url("/images/bg2.png");
+  background-image: url("/upcomer/images/bg2.png");
   text-align: center;
 }
 
