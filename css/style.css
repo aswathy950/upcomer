@@ -27,13 +27,15 @@ body{
   font-weight: 700;
 }
 
-.linkspage .home {
+.linkspage .home a{
   color: #333;
+  text-decoration: none;
 }
 
-.linkspage .about {
+.linkspage .about a {
   color: #999;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .logoimages {
