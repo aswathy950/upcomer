@@ -56,7 +56,7 @@ body{
 
 .first {
   height: 620px;
-  background-image: url("/images/bg1_repeat.png");
+  background-image: url("/upcomer/images/bg1_repeat.png");
   margin-top: 80px;
   text-align: center;
 }
@@ -104,7 +104,7 @@ body{
 
 .third {
   height: 350px;
-  background-image: url("/images/bg2.png");
+  background-image: url("/upcomer/images/bg2.png");
 }
 
 .fourth {
