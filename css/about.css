@@ -1,0 +1,292 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 80px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.linkspage {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.linkspage li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+}
+
+.linkspage .home a{
+  color: #999;
+  text-decoration: none;
+}
+
+.linkspage .about a {
+  color: #333;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.logoimages {
+  text-align: center;
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 16px;
+}
+
+.iccons {
+  display: inline-block;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 16px;
+}
+
+.iccons li {
+  display: inline-block;
+  list-style: none;
+}
+
+.firstsection {
+  height: 560px;
+}
+
+.firstsection .left {
+  float: left;
+  width: 48%;
+  padding-top: 100px;
+}
+
+.firstsection  h1{
+  color: #333;
+  font-size: 36px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  padding-left: 150px;
+
+}
+.firstsection p{
+  margin-top: 40px;
+  color: #999;
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;
+  padding-left: 150px;
+
+}
+
+
+.firstsection .right {
+  float: right;
+  width: 40%;
+  padding-top: 108px;
+}
+
+.secondsection {
+  height: 860px;
+  background-color: #f5f5f5;
+}
+
+#circle_2014, #circle_now {
+    border: 7px solid #fff;
+    width: 100px;
+    height: 100px;
+    margin-left: 46%;
+    border-radius: 60px;
+    text-align: center;
+    position: relative;
+
+    position: absolute;
+}
+
+#circle_2014 {
+  background-color: #f5f5f5;
+  margin-top: -50px;
+}
+
+#circle_now {
+  background-color: #e74c3c;
+  margin-top: -50px;
+
+}
+
+#circle_2014 span, #circle_now span {
+    position: absolute;
+    top: 31px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+
+    left: 25px;
+}
+#circle_2014 span {
+  color: #999;
+}
+#circle_now span {
+  color: #fff;
+}
+
+.secondsection .left {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    border-right: 7px solid white;
+
+}
+
+.secondsection .first {
+  margin-top: 65px;
+}
+.secondsection .fourth {
+  margin-bottom: 50px;
+}
+.secondsection .right {
+  width: 50%;
+  margin-left: 50%;
+  display: inline-block;
+  position: relative;
+  border-left: 7px solid white;
+
+}
+
+.secondsection .description {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.secondsection .left .description {
+    float: right;
+    margin-right: 55px;
+
+}
+
+.secondsection .right .description {
+    float: left;
+    margin-left: 55px;
+}
+
+.secondsection h1 {
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #333;
+}
+
+.secondsection p {
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+  color: #999;
+}
+.secondsection .right .circle {
+  left: -30px;
+}
+.secondsection .left .circle {
+  right: -30px;
+}
+.first .circle {
+  background-color: #ffc3bd;
+}
+.second .circle {
+  background-color: #fa9d93;
+}
+.third .circle {
+  background-color: #ed8074;
+}
+.fourth .circle {
+  background-color: #ec675a;
+}
+.circle {
+
+    position: absolute;
+    border: 7px solid #f5f5f5;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 39%;
+}
+
+.secondsection  .left .tip {
+  right: 35px;
+  border-left: 20px solid #fff;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  position: absolute;
+  top: 44%;
+}
+.secondsection  .right .tip {
+  left: 35px;
+  border-right: 20px solid #fff;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+  position: absolute;
+  top: 44%;
+}
+
+.thirdsection {
+  height: 650px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.thirdsection h1 {
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #333;
+  padding-top: 80px;
+}
+
+.thirdsection p {
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
+  color: #999;
+  margin-top: 40px;
+}
+
+input#hello {
+ height: 60px;
+ width: 269px;
+ background-color: #2ecc71;
+ border: 1px hidden;
+ border-radius: 30px 30px;
+ padding-left: 55px;
+ outline: medium none;
+ color: #fff;
+ font-family: 'Asap', sans-serif;
+ font-size: 20.3px;
+ margin-top: 55px;
+}
+
+
+.fifthsection {
+  height: 280px;
+  background-color: #333;
+  text-align: center;
+}
+
+.fifthsection img {
+  padding-top: 13px;
+}
+
+.footer {
+  height: 120px;
+  text-align: center;
+}
+
+.bottom li{
+  display: inline-block;
+  list-style: none;
+  padding-top: 40px;
+}
