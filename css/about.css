@@ -3,6 +3,111 @@ body{
   padding: 0px;
 }
 
+@media screen and (max-width: 590px){
+
+  .linkspage {
+    display: none;
+  }
+  .iccons {
+    display: none;
+  }
+  .logoimages {
+    width: 40%;
+  }
+  .smallhome,.smallabout {
+    display: inline-block;
+  }
+
+
+}
+@media screen and (min-width: 590px){
+  .linkspage {
+    display: inline-block;
+  }
+  .iccons {
+    display: inline-block;
+  }
+  .logoimages {
+    width: 40%;
+  }
+  .smallhome,.smallabout {
+    display: none;
+  }
+
+
+}
+
+@media screen and (min-width: 1020px){
+  .firstsection {
+    height: 560px;
+    background-color: #fff;
+  }
+
+  .firstsection .left {
+    float: left;
+    width: 48%;
+    padding-top: 100px;
+  }
+
+  .firstsection .right {
+    float: right;
+    width: 40%;
+    padding-top: 108px;
+  }
+  .firstsection  h1{
+    padding-left: 50px;
+  }
+  .firstsection p{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+  #circle_2014, #circle_now {
+    margin-left: 46%;
+  }
+}
+@media screen and (max-width: 1020px){
+
+  .firstsection .left {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .firstsection .right {
+    text-align: center;
+    padding-top: 50px;
+  }
+  #circle_2014, #circle_now {
+    margin-left: 20px;
+  }
+
+}
+@media screen and (min-width: 768px){
+  .firstsection  h1{
+    font-size: 36px;
+  }
+  .firstsection p{
+    font-size: 20px;
+  }
+  .firstsection .right img {
+    width: auto;
+  }
+
+}
+@media screen and (max-width: 768px){
+  .firstsection  h1{
+    font-size: 29px;
+  }
+  .firstsection p{
+    font-size: 16px;
+  }
+  .firstsection .right img {
+    width: 50%;
+  }
+
+
+}
+
+
 .header {
   height: 80px;
   padding: 0px;
@@ -15,8 +120,9 @@ body{
 }
 
 .linkspage {
-  display: inline-block;
-  margin-left: 200px;
+  width: 30%;
+  text-align: center;
+
 }
 
 .linkspage li {
@@ -28,12 +134,12 @@ body{
 }
 
 .linkspage .home a{
-  color: #999;
+  color: #333;
   text-decoration: none;
 }
 
 .linkspage .about a {
-  color: #333;
+  color: #999;
   margin-left: 10px;
   text-decoration: none;
 }
@@ -41,15 +147,16 @@ body{
 .logoimages {
   text-align: center;
   display: inline-block;
-  margin-left: 200px;
   margin-top: 16px;
 }
 
+
 .iccons {
-  display: inline-block;
-  margin-left: 300px;
   position: absolute;
   margin-top: 16px;
+  width: 30%;
+  text-align: center;
+
 }
 
 .iccons li {
@@ -57,39 +164,46 @@ body{
   list-style: none;
 }
 
-.firstsection {
-  height: 560px;
+.smallhome,.smallabout {
+   width: 30%;
+   text-align: center;
+   margin-top: 25px;
 }
 
-.firstsection .left {
+.smallhome {
   float: left;
-  width: 48%;
-  padding-top: 100px;
 }
+
+.smallabout{
+  float: right;
+}
+
+.smallhome a,.smallabout a {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.smallhome a {
+  color: #333;
+}
+.smallabout a {
+  color: #999;
+}
+
 
 .firstsection  h1{
   color: #333;
-  font-size: 36px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
-  padding-left: 150px;
 
 }
 .firstsection p{
   margin-top: 40px;
   color: #999;
-  font-size: 20px;
   font-family: 'Asap', sans-serif;
-  padding-left: 150px;
-
 }
 
-
-.firstsection .right {
-  float: right;
-  width: 40%;
-  padding-top: 108px;
-}
 
 .secondsection {
   height: 860px;
@@ -100,7 +214,6 @@ body{
     border: 7px solid #fff;
     width: 100px;
     height: 100px;
-    margin-left: 46%;
     border-radius: 60px;
     text-align: center;
     position: relative;

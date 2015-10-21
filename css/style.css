@@ -2,6 +2,151 @@ body{
   margin: 0px;
   padding: 0px;
 }
+@media screen and (max-width: 590px){
+
+  .linkspage {
+    display: none;
+  }
+  .iccons {
+    display: none;
+  }
+  .logoimages {
+    width: 40%;
+  }
+  .smallhome,.smallabout {
+    display: inline-block;
+  }
+
+
+}
+@media screen and (min-width: 590px){
+  .linkspage {
+    display: inline-block;
+  }
+  .iccons {
+    display: inline-block;
+  }
+  .logoimages {
+    width: 40%;
+  }
+  .smallhome,.smallabout {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .firstsection h1 {
+    font-size: 36px;
+  }
+  .firstsection p {
+    font-size: 19px;
+  }
+
+  .secondsection h1 {
+    font-size: 29px;
+  }
+  .secondsection p {
+    font-size: 16px;
+  }
+  .fourthsection p {
+    font-size: 19px;
+  }
+  input#email {
+   height: 40px;
+   width: 40%;
+ }
+ input#submit {
+   height: 40px;
+   width: 18%;
+ }
+}
+@media screen and (min-width: 730px){
+  .firstsection h1 {
+    font-size: 52px;
+  }
+  .firstsection p {
+    font-size: 24px;
+  }
+
+  .secondsection h1 {
+    font-size: 36px;
+  }
+  .secondsection p {
+    font-size: 20px;
+  }
+  .fourthsection p {
+    font-size: 24px;
+  }
+  input#email {
+   height: 60px;
+   width: 269px;
+ }
+ input#submit {
+   height: 62px;
+   width: 81px;
+ }
+
+}
+
+@media screen and (min-width: 895px){
+  .thirdsection .left {
+    float: left;
+    width: 48%;
+    padding-top: 150px;
+    text-align: right;
+  }
+
+  .thirdsection .right {
+    float: right;
+    width: 48%;
+    padding-top: 150px;
+  }
+  .thirdsection {
+    height: 900px;
+  }
+  .thirdsection .left h1{
+    margin-top: 200px;
+  }
+  .thirdsection .right img {
+    margin-top: 120px;
+  }
+  .thirdsection  h1{
+    font-size: 36px;
+  }
+  .thirdsection  p{
+    font-size: 19px;
+  }
+
+}
+
+@media screen and (max-width: 895px){
+  .thirdsection .left {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .thirdsection .right {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .thirdsection .left h1{
+    margin-top: 50px;
+  }
+  .thirdsection .right img, .left img {
+    width: 50%;
+  }
+  .thirdsection .right img {
+    margin-top: 80px;
+  }
+  .thirdsection  h1{
+    font-size: 29px;
+  }
+  .thirdsection  p{
+    font-size: 16px;
+  }
+}
 
 .header {
   height: 80px;
@@ -15,8 +160,9 @@ body{
 }
 
 .linkspage {
-  display: inline-block;
-  margin-left: 200px;
+  width: 30%;
+  text-align: center;
+
 }
 
 .linkspage li {
@@ -41,15 +187,16 @@ body{
 .logoimages {
   text-align: center;
   display: inline-block;
-  margin-left: 200px;
   margin-top: 16px;
 }
 
+
 .iccons {
-  display: inline-block;
-  margin-left: 300px;
   position: absolute;
   margin-top: 16px;
+  width: 30%;
+  text-align: center;
+
 }
 
 .iccons li {
@@ -57,31 +204,54 @@ body{
   list-style: none;
 }
 
+.smallhome,.smallabout {
+   width: 30%;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.smallhome {
+  float: left;
+}
+
+.smallabout{
+  float: right;
+}
+
+.smallhome a,.smallabout a {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+.smallhome a {
+  color: #333;
+}
+.smallabout a {
+  color: #999;
+}
+
+
 .firstsection {
-  height: 620px;
-  background-image: url("/upcomer/images/bg1_repeat.JPG");
+  background-image: url("/images/bg1_repeat.JPG");
   margin-top: 80px;
   text-align: center;
 }
 
 .firstsection h1{
   color: #fff;
-  font-size: 52px;
   font-family: 'Asap', sans-serif;
-  padding-top: 100px;
+  padding-top: 95px;
 
 }
 
 .firstsection p {
   margin-top: 40px;
-  font-size: 24px;
   color: #fff;
   font-family: 'Asap', sans-serif;
 }
 
  input#email {
-  height: 60px;
-  width: 269px;
   background-color: #EE8277;
   opacity: 0.8;
   border: 1px hidden;
@@ -91,10 +261,8 @@ body{
 }
 
 input#submit {
-  height: 62px;
   background-color: #2ECC71;
   border: 1px hidden;
-  width: 81px;
   border-radius: 0px 30px 30px 0px;
   outline: medium none;
   padding: 0;
@@ -112,14 +280,12 @@ input {
 }
 
 .secondsection {
-  height: 730px;
   text-align: center;
   background-color: #fff;
 }
 
 .secondsection h1 {
   color: #333;
-  font-size: 36px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
   padding-top: 100px;
@@ -128,81 +294,67 @@ input {
 
 .secondsection p {
   color: #999;
-  font-size: 20px;
   font-family: 'Asap', sans-serif;
   margin-top: 40px;
 }
 
-.thirdsection {
-  height: 900px;
-  background-color: #f5f5f5;
-}
-.thirdsection .left {
-  float: left;
-  width: 48%;
-  padding-top: 150px;
-  text-align: right;
+.secondsection img {
+  width: 100%;
 }
 
-.thirdsection .right {
-  float: right;
-  width: 48%;
-  padding-top: 150px;
+.thirdsection {
+  background-color: #f5f5f5;
 }
+
+
 
 .thirdsection  h1{
   color: #333;
-  font-size: 36px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
 }
 
-.thirdsection .left h1{
-  margin-top: 200px;
-}
 
 .thirdsection p{
   margin-top: 40px;
   color: #999;
-  font-size: 20px;
   font-family: 'Asap', sans-serif;
 
 }
-.thirdsection .right img {
-  margin-top: 120px;
-}
 
 .fourthsection {
-  height: 400px;
-  background-image: url("/upcomer/images/bg2.png");
+  background-image: url("/images/bg2.png");
   text-align: center;
 }
 
 
 .fourthsection p {
   color: #fff;
-  font-size: 24px;
   font-family: 'Asap', sans-serif;
   padding-top: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 p#secondpara {
   padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .fourthsection .label {
   font-size: 16px;
-  padding-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .fifthsection {
-  height: 280px;
   background-color: #333;
   text-align: center;
 }
 
 .fifthsection img {
   padding-top: 13px;
+  width: 55%;
 }
 
 .footer {
