@@ -1,10 +1,8 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
-
-@media screen and (max-width: 590px){
-
+@media screen and (max-width: 590px) {
   .linkspage {
     display: none;
   }
@@ -14,13 +12,15 @@ body{
   .logoimages {
     width: 40%;
   }
-  .smallhome,.smallabout {
+  .smallhome, .smallabout {
     display: inline-block;
   }
-
-
+  input#hello {
+    width: 200px;
+    padding-left: 20px;
+  }
 }
-@media screen and (min-width: 590px){
+@media screen and (min-width: 590px) {
   .linkspage {
     display: inline-block;
   }
@@ -30,84 +30,164 @@ body{
   .logoimages {
     width: 40%;
   }
-  .smallhome,.smallabout {
+  .smallhome, .smallabout {
     display: none;
   }
-
-
+  input#hello {
+    width: 269px;
+    padding-left: 55px;
+  }
 }
-
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 1020px) {
   .firstsection {
-    height: 560px;
+    height: 600px;
     background-color: #fff;
   }
-
   .firstsection .left {
     float: left;
     width: 48%;
     padding-top: 100px;
   }
-
   .firstsection .right {
     float: right;
     width: 40%;
-    padding-top: 108px;
+    padding-top: 147px;
   }
-  .firstsection  h1{
+  .firstsection h1 {
     padding-left: 50px;
   }
-  .firstsection p{
+  .firstsection p {
     padding-left: 50px;
     padding-right: 50px;
- }
-  #circle_2014, #circle_now {
+  }
+  #circle_2014 {
     margin-left: 46%;
   }
+  .secondsection .left {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    border-right: 7px solid white;
+  }
+  .secondsection .right {
+    width: 50%;
+    margin-left: 50%;
+    display: inline-block;
+    position: relative;
+    border-left: 7px solid white;
+  }
+  .secondsection .left .description {
+    float: right;
+    margin-right: 55px;
+  }
+  .secondsection .right .description {
+    float: left;
+    margin-left: 55px;
+  }
+  .secondsection .left .circle {
+    right: -30px;
+  }
+  .secondsection .left .tip {
+    right: 35px;
+    border-left: 20px solid #fff;
+  }
+  .secondsection .right .tip {
+    left: 35px;
+  }
 }
-@media screen and (max-width: 1020px){
-
+@media screen and (max-width: 1020px) {
   .firstsection .left {
     text-align: center;
     padding-top: 100px;
   }
-
   .firstsection .right {
     text-align: center;
     padding-top: 50px;
   }
-  #circle_2014, #circle_now {
-    margin-left: 20px;
+  #circle_2014 {
+    margin-left: 30px;
   }
-
+  .secondsection .left {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border-left: 7px solid white;
+    margin-left: 80px;
+  }
+  .secondsection .right {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border-left: 7px solid white;
+    margin-left: 80px;
+  }
+  .secondsection .description {
+    width: 60%;
+    margin-left: 30px;
+  }
+  .secondsection .left .circle {
+    left: -30px;
+  }
+  .secondsection .left .tip {
+    left: 30px;
+    border-right: 20px solid #fff;
+  }
+  .secondsection .right .tip {
+    left: 30px;
+  }
 }
-@media screen and (min-width: 768px){
-  .firstsection  h1{
+@media screen and (min-width: 768px) {
+  .firstsection h1 {
     font-size: 36px;
   }
-  .firstsection p{
+  .firstsection p {
     font-size: 20px;
   }
   .firstsection .right img {
     width: auto;
   }
-
+  .secondsection h1 {
+    font-size: 22px;
+  }
+  .secondsection p {
+    font-size: 20px;
+  }
+  .thirdsection h1 {
+    font-size: 36px;
+  }
+  .thirdsection p {
+    font-size: 20px;
+  }
+  #circle_now {
+    margin-left: 46%;
+  }
 }
-@media screen and (max-width: 768px){
-  .firstsection  h1{
+@media screen and (max-width: 768px) {
+  .firstsection h1 {
     font-size: 29px;
   }
-  .firstsection p{
+  .firstsection p {
     font-size: 16px;
   }
   .firstsection .right img {
     width: 50%;
   }
-
-
+  .secondsection h1 {
+    font-size: 18px;
+  }
+  .secondsection p {
+    font-size: 14px;
+  }
+  .thirdsection h1 {
+    font-size: 29px;
+  }
+  .thirdsection p {
+    font-size: 16px;
+  }
+  #circle_now {
+    margin-left: 41%;
+  }
 }
-
-
 .header {
   height: 80px;
   padding: 0px;
@@ -118,13 +198,10 @@ body{
   width: 100%;
   z-index: 1000;
 }
-
 .linkspage {
   width: 30%;
   text-align: center;
-
 }
-
 .linkspage li {
   list-style: none;
   display: inline-block;
@@ -132,53 +209,42 @@ body{
   font-family: 'Asap', sans-serif;
   font-weight: 700;
 }
-
-.linkspage .home a{
+.linkspage .home a {
   color: #333;
   text-decoration: none;
 }
-
 .linkspage .about a {
   color: #999;
   margin-left: 10px;
   text-decoration: none;
 }
-
 .logoimages {
   text-align: center;
   display: inline-block;
   margin-top: 16px;
 }
-
-
 .iccons {
   position: absolute;
   margin-top: 16px;
   width: 30%;
   text-align: center;
-
 }
-
 .iccons li {
   display: inline-block;
   list-style: none;
 }
-
-.smallhome,.smallabout {
-   width: 30%;
-   text-align: center;
-   margin-top: 25px;
+.smallhome, .smallabout {
+  width: 30%;
+  text-align: center;
+  margin-top: 25px;
 }
-
 .smallhome {
   float: left;
 }
-
-.smallabout{
+.smallabout {
   float: right;
 }
-
-.smallhome a,.smallabout a {
+.smallhome a, .smallabout a {
   font-size: 18px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
@@ -190,56 +256,45 @@ body{
 .smallabout a {
   color: #999;
 }
-
-
-.firstsection  h1{
+.firstsection h1 {
   color: #333;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
-
 }
-.firstsection p{
+.firstsection p {
   margin-top: 40px;
   color: #999;
   font-family: 'Asap', sans-serif;
+  margin-bottom: 0px;
 }
-
-
 .secondsection {
-  height: 860px;
+  /*height: 860px;*/
   background-color: #f5f5f5;
 }
-
 #circle_2014, #circle_now {
-    border: 7px solid #fff;
-    width: 100px;
-    height: 100px;
-    border-radius: 60px;
-    text-align: center;
-    position: relative;
-
-    position: absolute;
+  border: 7px solid #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  text-align: center;
+  position: relative;
+  position: absolute;
 }
-
 #circle_2014 {
   background-color: #f5f5f5;
   margin-top: -50px;
 }
-
 #circle_now {
   background-color: #e74c3c;
   margin-top: -50px;
-
 }
-
 #circle_2014 span, #circle_now span {
-    position: absolute;
-    top: 31px;
-    font-family: 'Asap', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-
-    left: 25px;
+  position: absolute;
+  top: 31px;
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  left: 25px;
 }
 #circle_2014 span {
   color: #999;
@@ -247,65 +302,31 @@ body{
 #circle_now span {
   color: #fff;
 }
-
-.secondsection .left {
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    border-right: 7px solid white;
-
-}
-
 .secondsection .first {
   margin-top: 65px;
 }
 .secondsection .fourth {
   margin-bottom: 50px;
 }
-.secondsection .right {
-  width: 50%;
-  margin-left: 50%;
-  display: inline-block;
-  position: relative;
-  border-left: 7px solid white;
-
-}
-
 .secondsection .description {
-    margin-top: 30px;
-    background-color: #fff;
-    padding: 10px 15px;
-    position: relative;
-    border-radius: 10px;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 10px 15px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 50px;
 }
-.secondsection .left .description {
-    float: right;
-    margin-right: 55px;
-
-}
-
-.secondsection .right .description {
-    float: left;
-    margin-left: 55px;
-}
-
 .secondsection h1 {
   font-family: 'Asap', sans-serif;
   font-weight: 700;
-  font-size: 22px;
   color: #333;
 }
-
 .secondsection p {
   font-family: 'Asap', sans-serif;
-  font-size: 20px;
   color: #999;
 }
 .secondsection .right .circle {
   left: -30px;
-}
-.secondsection .left .circle {
-  right: -30px;
 }
 .first .circle {
   background-color: #ffc3bd;
@@ -320,85 +341,68 @@ body{
   background-color: #ec675a;
 }
 .circle {
-
-    position: absolute;
-    border: 7px solid #f5f5f5;
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    z-index: 1;
-    top: 39%;
+  position: absolute;
+  border: 7px solid #f5f5f5;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  z-index: 1;
+  top: 39%;
 }
-
-.secondsection  .left .tip {
-  right: 35px;
-  border-left: 20px solid #fff;
+.secondsection .left .tip {
   border-bottom: 15px solid transparent;
   border-top: 15px solid transparent;
   position: absolute;
   top: 44%;
 }
-.secondsection  .right .tip {
-  left: 35px;
+.secondsection .right .tip {
   border-right: 20px solid #fff;
   border-bottom: 15px solid transparent;
   border-top: 15px solid transparent;
   position: absolute;
   top: 44%;
 }
-
 .thirdsection {
-  height: 650px;
+  /*height: 650px;*/
   background-color: #fff;
   text-align: center;
 }
-
 .thirdsection h1 {
   font-family: 'Asap', sans-serif;
   font-weight: 700;
-  font-size: 36px;
   color: #333;
   padding-top: 80px;
 }
-
 .thirdsection p {
   font-family: 'Asap', sans-serif;
-  font-size: 20px;
   color: #999;
   margin-top: 40px;
 }
-
 input#hello {
- height: 60px;
- width: 269px;
- background-color: #2ecc71;
- border: 1px hidden;
- border-radius: 30px 30px;
- padding-left: 55px;
- outline: medium none;
- color: #fff;
- font-family: 'Asap', sans-serif;
- font-size: 20.3px;
- margin-top: 55px;
+  height: 60px;
+  background-color: #2ecc71;
+  border: 1px hidden;
+  border-radius: 30px 30px;
+  outline: medium none;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 20.3px;
+  margin-top: 55px;
+  margin-bottom: 30px;
 }
-
-
 .fifthsection {
-  height: 280px;
   background-color: #333;
   text-align: center;
 }
-
 .fifthsection img {
   padding-top: 13px;
+  width: 55%;
 }
-
 .footer {
   height: 120px;
   text-align: center;
 }
-
-.bottom li{
+.bottom li {
   display: inline-block;
   list-style: none;
   padding-top: 40px;
