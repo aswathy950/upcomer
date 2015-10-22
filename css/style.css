@@ -1,9 +1,8 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
-@media screen and (max-width: 590px){
-
+@media screen and (max-width: 590px) {
   .linkspage {
     display: none;
   }
@@ -13,13 +12,11 @@ body{
   .logoimages {
     width: 40%;
   }
-  .smallhome,.smallabout {
+  .smallhome, .smallabout {
     display: inline-block;
   }
-
-
 }
-@media screen and (min-width: 590px){
+@media screen and (min-width: 590px) {
   .linkspage {
     display: inline-block;
   }
@@ -29,19 +26,17 @@ body{
   .logoimages {
     width: 40%;
   }
-  .smallhome,.smallabout {
+  .smallhome, .smallabout {
     display: none;
   }
 }
-
-@media screen and (max-width: 730px){
+@media screen and (max-width: 730px) {
   .firstsection h1 {
     font-size: 36px;
   }
   .firstsection p {
     font-size: 19px;
   }
-
   .secondsection h1 {
     font-size: 29px;
   }
@@ -52,22 +47,21 @@ body{
     font-size: 19px;
   }
   input#email {
-   height: 40px;
-   width: 40%;
- }
- input#submit {
-   height: 40px;
-   width: 18%;
- }
+    height: 40px;
+    width: 40%;
+  }
+  input#submit {
+    height: 40px;
+    width: 18%;
+  }
 }
-@media screen and (min-width: 730px){
+@media screen and (min-width: 730px) {
   .firstsection h1 {
     font-size: 52px;
   }
   .firstsection p {
     font-size: 24px;
   }
-
   .secondsection h1 {
     font-size: 36px;
   }
@@ -78,24 +72,21 @@ body{
     font-size: 24px;
   }
   input#email {
-   height: 60px;
-   width: 269px;
- }
- input#submit {
-   height: 62px;
-   width: 81px;
- }
-
+    height: 60px;
+    width: 269px;
+  }
+  input#submit {
+    height: 62px;
+    width: 81px;
+  }
 }
-
-@media screen and (min-width: 895px){
+@media screen and (min-width: 895px) {
   .thirdsection .left {
     float: left;
     width: 48%;
     padding-top: 150px;
     text-align: right;
   }
-
   .thirdsection .right {
     float: right;
     width: 48%;
@@ -104,34 +95,31 @@ body{
   .thirdsection {
     height: 900px;
   }
-  .thirdsection .left h1{
+  .thirdsection .left h1 {
     margin-top: 200px;
   }
   .thirdsection .right img {
     margin-top: 120px;
   }
-  .thirdsection  h1{
+  .thirdsection h1 {
     font-size: 36px;
   }
-  .thirdsection  p{
+  .thirdsection p {
     font-size: 19px;
   }
-
 }
-
-@media screen and (max-width: 895px){
+@media screen and (max-width: 895px) {
   .thirdsection .left {
     width: 100%;
     padding-top: 100px;
     text-align: center;
   }
-
   .thirdsection .right {
     width: 100%;
     padding-top: 20px;
     text-align: center;
   }
-  .thirdsection .left h1{
+  .thirdsection .left h1 {
     margin-top: 50px;
   }
   .thirdsection .right img, .left img {
@@ -140,14 +128,13 @@ body{
   .thirdsection .right img {
     margin-top: 80px;
   }
-  .thirdsection  h1{
+  .thirdsection h1 {
     font-size: 29px;
   }
-  .thirdsection  p{
+  .thirdsection p {
     font-size: 16px;
   }
 }
-
 .header {
   height: 80px;
   padding: 0px;
@@ -158,13 +145,10 @@ body{
   width: 100%;
   z-index: 1000;
 }
-
 .linkspage {
   width: 30%;
   text-align: center;
-
 }
-
 .linkspage li {
   list-style: none;
   display: inline-block;
@@ -172,53 +156,42 @@ body{
   font-family: 'Asap', sans-serif;
   font-weight: 700;
 }
-
-.linkspage .home a{
+.linkspage .home a {
   color: #333;
   text-decoration: none;
 }
-
 .linkspage .about a {
   color: #999;
   margin-left: 10px;
   text-decoration: none;
 }
-
 .logoimages {
   text-align: center;
   display: inline-block;
   margin-top: 16px;
 }
-
-
 .iccons {
   position: absolute;
   margin-top: 16px;
   width: 30%;
   text-align: center;
-
 }
-
 .iccons li {
   display: inline-block;
   list-style: none;
 }
-
-.smallhome,.smallabout {
-   width: 30%;
-   text-align: center;
-   margin-top: 25px;
+.smallhome, .smallabout {
+  width: 30%;
+  text-align: center;
+  margin-top: 25px;
 }
-
 .smallhome {
   float: left;
 }
-
-.smallabout{
+.smallabout {
   float: right;
 }
-
-.smallhome a,.smallabout a {
+.smallhome a, .smallabout a {
   font-size: 18px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
@@ -230,28 +203,22 @@ body{
 .smallabout a {
   color: #999;
 }
-
-
 .firstsection {
   background-image: url("/images/bg1_repeat.JPG");
   margin-top: 80px;
   text-align: center;
 }
-
-.firstsection h1{
+.firstsection h1 {
   color: #fff;
   font-family: 'Asap', sans-serif;
   padding-top: 95px;
-
 }
-
 .firstsection p {
   margin-top: 40px;
   color: #fff;
   font-family: 'Asap', sans-serif;
 }
-
- input#email {
+input#email {
   background-color: #EE8277;
   opacity: 0.8;
   border: 1px hidden;
@@ -259,75 +226,57 @@ body{
   padding-left: 48px;
   outline: medium none;
 }
-
 input#submit {
   background-color: #2ECC71;
   border: 1px hidden;
   border-radius: 0px 30px 30px 0px;
   outline: medium none;
   padding: 0;
-  margin-left: -4px;;
+  margin-left: -4px;
 }
-
 input {
   color: #fff;
   font-family: 'Asap', sans-serif;
   font-size: 20.3px;
 }
-
 .firstsection .label {
   font-size: 16px;
 }
-
 .secondsection {
   text-align: center;
   background-color: #fff;
 }
-
 .secondsection h1 {
   color: #333;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
   padding-top: 100px;
-
 }
-
 .secondsection p {
   color: #999;
   font-family: 'Asap', sans-serif;
   margin-top: 40px;
 }
-
 .secondsection img {
   width: 100%;
 }
-
 .thirdsection {
   background-color: #f5f5f5;
 }
-
-
-
-.thirdsection  h1{
+.thirdsection h1 {
   color: #333;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
 }
-
-
-.thirdsection p{
+.thirdsection p {
   margin-top: 40px;
   color: #999;
   font-family: 'Asap', sans-serif;
-
 }
-
 .fourthsection {
   background-image: url("/images/bg2.png");
   text-align: center;
 }
-
-
 .fourthsection p {
   color: #fff;
   font-family: 'Asap', sans-serif;
@@ -335,34 +284,28 @@ input {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
 p#secondpara {
   padding-top: 40px;
   padding-bottom: 30px;
 }
-
 .fourthsection .label {
   font-size: 16px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
-
 .fifthsection {
   background-color: #333;
   text-align: center;
 }
-
 .fifthsection img {
   padding-top: 13px;
   width: 55%;
 }
-
 .footer {
   height: 120px;
   text-align: center;
 }
-
-.bottom li{
+.bottom li {
   display: inline-block;
   list-style: none;
   padding-top: 40px;
