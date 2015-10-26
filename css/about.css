@@ -208,13 +208,14 @@ body {
   font-size: 18px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
+  cursor: pointer;
 }
 .linkspage .home a {
-  color: #333;
+  color: #999;
   text-decoration: none;
 }
 .linkspage .about a {
-  color: #999;
+  color: #333;
   margin-left: 10px;
   text-decoration: none;
 }
@@ -232,6 +233,10 @@ body {
 .iccons li {
   display: inline-block;
   list-style: none;
+}
+.iccons li img:hover{
+  opacity: .8;
+  cursor: pointer;
 }
 .smallhome, .smallabout {
   width: 30%;
@@ -251,10 +256,10 @@ body {
   text-decoration: none;
 }
 .smallhome a {
-  color: #333;
+  color: #999;
 }
 .smallabout a {
-  color: #999;
+  color: #333;
 }
 .firstsection h1 {
   color: #333;
@@ -390,6 +395,10 @@ input#hello {
   margin-top: 55px;
   margin-bottom: 30px;
 }
+input#hello:hover {
+  opacity: .8;
+  cursor: pointer;
+}
 .fifthsection {
   background-color: #333;
   text-align: center;
@@ -406,4 +415,8 @@ input#hello {
   display: inline-block;
   list-style: none;
   padding-top: 40px;
+}
+.bottom li img:hover {
+  opacity: .8;
+  cursor: pointer;
 }
