@@ -50,8 +50,12 @@ body {
     height: 40px;
     width: 40%;
   }
-  input#submit {
+  input#emailfourth {
     height: 40px;
+    width: 40%;
+  }
+  input#submit {
+    height: 42px;
     width: 18%;
   }
 }
@@ -72,6 +76,10 @@ body {
     font-size: 24px;
   }
   input#email {
+    height: 60px;
+    width: 269px;
+  }
+  input#emailfourth {
     height: 60px;
     width: 269px;
   }
@@ -242,6 +250,9 @@ input {
 .firstsection .label {
   font-size: 16px;
 }
+.firstsection img {
+  margin-bottom: -5px;
+}
 .secondsection {
   text-align: center;
   background-color: #fff;
@@ -277,6 +288,11 @@ input {
   background-image: url("/images/bg2.png");
   text-align: center;
 }
+.fourthsection h1 {
+  padding-top: 80px;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+}
 .fourthsection p {
   color: #fff;
   font-family: 'Asap', sans-serif;
@@ -284,9 +300,23 @@ input {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-p#secondpara {
+p.secondpara {
   padding-top: 40px;
   padding-bottom: 30px;
+}
+input#emailfourth {
+  background-color: #EE8277;
+  opacity: 0.8;
+  border: 1px hidden;
+  border-radius: 30px 0px 0px 30px;
+  padding-left: 48px;
+  outline: medium none;
+}
+.fbtweetmail {
+  padding-bottom: 80px;
+}
+.fbtweetmail img {
+  margin-bottom: 10px;
 }
 .fourthsection .label {
   font-size: 16px;
@@ -309,4 +339,16 @@ p#secondpara {
   display: inline-block;
   list-style: none;
   padding-top: 40px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.fb_tweet_mail {
+  margin-bottom: 80px;
+}
+.fb_tweet_mail img {
+  margin-bottom: 10px;
 }
