@@ -163,6 +163,7 @@ body {
   font-size: 18px;
   font-family: 'Asap', sans-serif;
   font-weight: 700;
+  cursor: pointer;
 }
 .linkspage .home a {
   color: #333;
@@ -187,6 +188,10 @@ body {
 .iccons li {
   display: inline-block;
   list-style: none;
+}
+.iccons li img:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 .smallhome, .smallabout {
   width: 30%;
@@ -241,6 +246,7 @@ input#submit {
   outline: medium none;
   padding: 0;
   margin-left: -4px;
+  cursor: pointer;
 }
 input {
   color: #fff;
@@ -252,6 +258,7 @@ input {
 }
 .firstsection img {
   margin-bottom: -5px;
+  cursor: pointer;
 }
 .secondsection {
   text-align: center;
@@ -339,6 +346,10 @@ input#emailfourth {
   display: inline-block;
   list-style: none;
   padding-top: 40px;
+}
+.bottom li img:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 .show {
   display: block;
