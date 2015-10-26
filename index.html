@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>upcomer</title>
+  <script type="text/javascript" src="js/index.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Asap:700' rel='stylesheet' type='text/css'>
@@ -35,7 +36,7 @@
       <a href="about.html">About</a>
     </nav>
   </div>
-  <div class="firstsection">
+  <div class="firstsection show" id="firstfirst">
     <h1>Stay updated on upcoming
       <br>tech products you love</h1>
     <p>
@@ -45,14 +46,28 @@
     <p>
       Be the first to try upcomer
     </p>
-    <input id="email" type="email" name="name" placeholder="email adress">
-    <input id="submit" type="submit" name="name" value="ok">
+    <input id="email" type="email" placeholder="email adress" required>
+    <input id="submit" type="submit" value="ok" onclick="firstsection_display()">
     <p class="label">
       Coming to Android and iOS first half of 2015
     </p>
-    <img src="/upcomer/images/down-arrow.png" />
+    <img src="/upcomer/images/down-arrow.png" onclick="down_arrow()" />
   </div>
-  <div class="secondsection">
+  <div class="firstsection hide" id="firstsecond">
+    <h1>We have added your email
+      <br>address to the sign-up queue</h1>
+    <p>
+      We will let you know as soon as you can get Upcomer.
+      <br>Be sure your friends don't miss out.
+    </p>
+    <div class="fb_tweet_mail">
+      <img src="/upcomer/images/fb_share.png" />
+      <img src="/upcomer/images/tweet_share.png" />
+      <img src="/upcomer/images/email_share.png" />
+    </div>
+    <img src="/upcomer/images/down-arrow.png" onclick="down_arrow()" />
+  </div>
+  <div class="secondsection" id="downarrow">
     <h1>Personalize your feed</h1>
     <p>
       Choose your favourite brands and product categories to
@@ -81,19 +96,31 @@
       <img src="/upcomer/images/illustration2.png" />
     </div>
   </div>
-  <div class="fourthsection">
+  <div class="fourthsection show" id="fourthfirst">
     <p>
       The first 500 people to sign up will get an<b> "early adopter priority"</b> for 6 months
       <br> which gives you a higher prioriy when we give away brand new products
     </p>
-    <p id="secondpara">
+    <p class="secondpara">
       Be the first to try Upcomer
     </p>
-    <input id="email" type="email" name="name" placeholder="email adress">
-    <input id="submit" type="submit" name="name" value="ok">
+    <input id="emailfourth" type="email" placeholder="email adress" required>
+    <input id="submit" type="submit" value="ok" onclick="fourthsection_display()">
     <p class="label">
       Coming to Android and iOS first half of 2015
     </p>
+  </div>
+  <div class="fourthsection hide" id="fourthsecond">
+    <h1>We have added your email address to the sign-up queue</h1>
+    <p class="secondpara">
+      We will let you know as soon as you can get Upcomer.
+      <br>Be sure your friends don't miss out.
+    </p>
+    <div class="fbtweetmail">
+      <img src="/upcomer/images/fb_share.png" />
+      <img src="/upcomer/images/tweet_share.png" />
+      <img src="/upcomer/images/email_share.png" />
+    </div>
   </div>
   <div class="fifthsection">
     <img src="/upcomer/images/hand2.png" />
