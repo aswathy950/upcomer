@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 @media screen and (max-width: 590px) {
   .linkspage {
@@ -60,7 +61,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
   }
-  #circle_2014 {
+  #circle_2014,#circle_now {
     margin-left: 46%;
   }
   .secondsection .left {
@@ -104,7 +105,7 @@ body {
     text-align: center;
     padding-top: 50px;
   }
-  #circle_2014 {
+  #circle_2014,#circle_now {
     margin-left: 30px;
   }
   .secondsection .left {
@@ -158,9 +159,9 @@ body {
   .thirdsection p {
     font-size: 20px;
   }
-  #circle_now {
+  /*#circle_now {
     margin-left: 46%;
-  }
+  }*/
 }
 @media screen and (max-width: 768px) {
   .firstsection h1 {
@@ -184,9 +185,9 @@ body {
   .thirdsection p {
     font-size: 16px;
   }
-  #circle_now {
+  /*#circle_now {
     margin-left: 41%;
-  }
+  }*/
 }
 .header {
   height: 80px;
